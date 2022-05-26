@@ -3,7 +3,7 @@ on: push
 name: Build app ionic
 jobs:
   build:
-    runs-on:  ubuntu-latest 
+    runs-on: ubuntu-latest 
     strategy:
       matrix:
         node-version: [16.x]
